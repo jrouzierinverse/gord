@@ -23,7 +23,7 @@ On the SCCM Data Provider Windows Server:
  # Configure settings in the `Network` and `AuthConfig` classes described above, if necessary.
  # Open a command prompt (i.e. Start -> Run, type `cmd` and hit Enter).
  # Run `install.bat`.
-   * On success, âInstalling service GORD.  Service installed.
+   * On success you will see, "Installing service GORD.  Service installed."
  # Run `run.bat debug`.
-   * On success, âDebugging service GORDâThe GORD service has startedâ
+   * On success you will see, "Debugging service GORD. The GORD service has started"
  # Finally, to start the service, run `sc start gord`.
