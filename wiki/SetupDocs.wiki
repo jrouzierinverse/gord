@@ -5,7 +5,7 @@ The configuration of GORD is contained in the `common.py` module.
  * Class: `Network`
    * `SERVICE_HOST`: (string) Host that the server is running on, e.g. the local hostname.
    * `SERVICE_PORT`: (int) Port to run on.
-   * `AUTH_CLASS`: (string) Name of the authentication class from auth module to use.  Use AuthNone for a generic placeholder class which performs no authentication.
+   * `AUTH_CLASS`: (string) Name of the authentication class from auth module to use.  Use !AuthNone for a generic placeholder class which performs no authentication.
    * `USE_HTTPS`: (bool) Value instructing server to use https (True) or http (False).
    * `PEM_FILENAME`: (string) Value pointing to the PEM file for the https server, required only when `USE_HTTPS` is True, otherwise should be `None`.
  * Class: `AuthConfig`
